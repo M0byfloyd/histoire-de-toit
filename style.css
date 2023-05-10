@@ -1,0 +1,582 @@
+/* Styles communs aux pages */
+*	{
+	margin: 0 auto;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*Corps de texte pour */
+.corps {
+	margin-top: 20px;
+	margin-bottom: 150px;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+/*Polices*/
+p {
+	font-size: 1.2vw;
+	font-family: 'Raleway', sans-serif;
+	line-height: 200%;
+}
+a {
+	font-size: 1.4vw;
+}
+h1 {
+	font-family: 'Lora', serif;
+}
+h2 {
+	font-size: 28pt;
+	font-family: 'Lora', serif;
+}
+/* Header*/
+header {
+	height: 22vh;
+	width: 100%;
+	background-color: rgba(76,27,32,0.1);
+	display: flex;
+}
+header nav {
+	height: 100%;
+	width: 100%;
+}
+header nav ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	height: 80%;
+	margin-top: 25px;
+}
+header nav a {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.5vw;
+}
+/*Tirets pour séparer les liens*/
+.tiret {
+	margin-left: -2.5%;
+	margin-right: -2.5%;
+}
+header nav a:hover {
+	color: #4C1B20;
+	text-decoration: none;
+}
+header nav ul li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 0;
+}
+.logo_header {
+	max-height: 110px;
+	margin-bottom: 20px;
+}
+.logo_lien {
+	display: flex;
+	justify-content: center;
+}
+.reseaux_header	{
+	margin-right: 0;
+	height: 0%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+.reseaux_header div {
+	margin-top: 1.1%;
+	margin-right: 13%;
+	width: 120px;
+	display: flex;
+	justify-content: space-around;
+	z-index: 2;
+}
+.picto_reseau {
+	max-height: 20px;
+	margin:0;
+}
+/* Footer */
+footer {
+	display: flex;
+	flex-direction: column;
+	width: 95%;
+	background-color: rgba(76,27,32,0.1);
+	margin: auto;
+	margin-bottom: 2%;
+	padding: 2%;
+}
+/*Police footer*/
+footer h2 {
+	font-family: 'Courier New', arial;
+	font-size: 1.3vw;
+}
+footer p {
+		font-family: 'Raleway', sans-serif;
+		font-size: 1.0vw;
+		line-height: 100%;
+}
+footer  a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+footer a:hover {
+	color: rgba(76,27,32,1);
+	text-decoration: none;
+}
+#footer_coordonees {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+#footer_logo {
+	margin-left: 7%;
+	width: 15%;
+	height: 15%;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+#footer_histoire_de_toits {
+	width: 35%;
+	margin-left: 15%;
+}
+#footer_agence {
+	width: 45%;
+	margin-left: 10%;
+}
+#footer_mentions_legales {
+	font-size: 12px;
+	margin-top: 5%;
+}
+/* Page d'accueil */
+/*Présentation "Histoire de toit*/
+.section_bas h2, .section_bas p {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+.section_bas {
+	margin: 1.6%;
+	min-height: 30vh;
+	background-color: rgba(76,27,32,0.1);
+	padding: 2%;
+}
+#section_textes {
+	height: 60%;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Raleway', sans-serif;
+}
+#titre_accueil {
+	text-align: center;
+}
+#image_titre_accueil {
+	width: 30%;
+	height: 30%;
+}
+#picto_accueil {
+	display: flex;
+	flex-direction: row;
+}
+#picto_accueil_gauche {
+	width: 90px;
+	height: 90px;
+}
+#picto_accueil_droite {
+	width: 80px;
+	height: 80px;
+}
+#section_textes article {
+	height: 70%;
+	width: 45%;
+	font-family: 'Raleway', sans-serif;
+}
+#section_textes article p {
+	text-align: justify;
+	font-family: 'Raleway', sans-serif;
+	width: 86%;
+	position: relative;
+	top:15px;
+}
+#lien_accueil {
+	display: flex;
+	flex-direction: row;
+}
+#lien_accueil a {
+	font-family: 'Lora', serif;
+	color: black;
+	padding: 2%;
+}
+#lien_accueil a:hover {
+	text-decoration: none;
+	color: rgba(76,27,32,0.8);
+}
+#section_realisations {
+	width: 100%;
+	min-height: 30%;
+	margin-top: 5%;
+	margin-bottom: 25%;
+}
+#image_accueil_real {
+	margin: 2%;
+	width: 60%;
+	height: 60%;
+}
+#texte_accueil_real{
+	/*margin: 1.6%;*/
+	background-color: rgba(76,27,32,0.8);
+	padding: 2%;
+	color: white;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	width: 60%;
+	float: right;
+	margin-top: -10%;
+	margin-right: 2%;
+}
+#section_realisations p {
+	font-family: 'Raleway', sans-serif;
+}
+#section_realisations a {
+	font-family: 'Lora', serif;
+	color: white;
+}
+#section_realisations a:hover {
+	text-decoration: none;
+	color: rgba(76,27,32,1);
+}
+hr {
+	width: 30%;
+	color: rgba(76,27,32,1);
+}
+#picto_reseaux_gros {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 10%;
+}
+#picto_reseaux_gros div {
+	width: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+.picto_reseau_gros {
+	width: 100px;
+}
+/*Section actu*/
+#section_actu {
+}
+#section_actu h2 {
+	text-align: center;
+	color:  rgba(76,27,32,0.4);
+	font-family: 'Courier New', arial;
+}
+/*Redimensionnement des réseaux*/
+#reseaux {
+	margin-top: 6%;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#redimension_instagram {
+	width: 40%;
+	height: 100%;
+}
+#redimension_twitter {
+	width: 40%;
+	height: 100%;
+}
+/*Section picto réseaux*/
+#picto_reseaux {
+	width: 100%;
+	display: flex;
+	flex-direction: row;	
+}
+#video {
+	margin-top: 7%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+/*Page atelier */
+h1 {
+	text-align: center;
+}
+/*Image background parallaxe de la page atelier*/
+#atelier_image {
+	width:100%; 
+	height: 65vh;
+	background-image:  url(images/ateliercouvreur.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.picto_toit {
+	width: 70px;
+	height: 33px;
+}
+#texte_atelier {
+	margin-bottom: 4%;
+	text-align: justify;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.histoire_atelier {
+	background-color: grey;
+	/*padding:2%;*/
+	background-color:  rgba(76,27,32,0.1);
+}
+.histoire_atelier h2 {
+	margin-left: 20%;
+	padding-top: 6%;
+}
+.article_histoire {
+	display: flex;
+	text-align: justify;
+	margin: 3%;
+}
+#image_histoire {
+	width: 40%;
+	margin-left: 5%;
+	float: right;
+} 
+#image_atelier {
+	width: 50%;
+	height: 50%;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+.section_atelier{
+	background-color: rgba(76,27,32,0.8);
+	color: white;
+	padding-top: 5%;
+	padding-right: 6%;
+	padding-left: 6%;
+	padding-bottom: 4%;
+	width: 50%;
+	position: relative;
+	margin-left: 40%;
+	margin-top: -17%;
+	margin-bottom: 5%;
+}
+#texte_histoire {
+	text-align: justify;
+}
+#equipe_atelier h2 {
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 2.2vw;
+	font-family: 'Lora', serif;
+}
+#equipe_atelier {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin-bottom: 5%;
+}
+#equipe_atelier div {
+	display: flex;
+	flex-direction: row;
+}
+#equipe_atelier p {
+	font-size: 1vw;
+}
+.article_atelier {
+	width: 30%;
+	box-shadow: 0 4px 7px 3px rgba(62,62,62,0.1);
+	margin-top: 5%;
+}
+.article_atelier h2 {
+	font-size: 1.4vw;
+}
+.article_atelier h3 {
+	text-align: center;
+	padding: 5%;
+	font-size: 1.4vw;
+}
+.article_atelier img {
+	width: 100%;
+	margin-bottom: 9%;
+	margin-top: 5%;
+}
+.article_atelier p {
+	text-align: justify;
+	padding: 5%;
+}
+/*Page valeurs */
+#image_compagnon {
+	width: 40%;
+	height: 40%;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+#section_compagnon {
+	background-color: rgba(76,27,32,0.8);
+	color: white;
+	padding-top: 5%;
+	padding-right: 6%;
+	padding-left: 6%;
+	padding-bottom: 4%;
+	width: 50%;
+	position: relative;
+	margin-left: 40%;
+	margin-top: -17%;
+	margin-bottom: 5%;
+}
+#section_compagnon h2 {
+	text-align: center;
+	margin-bottom: 4%;
+}
+#texte_compagnon {
+	text-align: justify;
+}
+#compagnon {
+	text-align: justify;
+}
+#compagnon h3 {
+	margin-bottom: 3%;
+}
+#image_restauration {
+	width: 40%;
+	height: 40%;
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 50%;
+}
+#section_restauration {
+	background-color: rgba(76,27,32,0.8);
+	color: white;
+	padding-top: 5%;
+	padding-right: 6%;
+	padding-left: 6%;
+	padding-bottom: 4%;
+	width: 50%;
+	margin-top: -20%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+	position: relative;
+}
+#section_restauration h2 {
+	text-align: center;
+}
+#texte_restauration {
+	text-align: justify;
+}
+.section_valeurs {
+	text-align: justify;
+	margin-top: 9%;
+}
+/*Page contact*/
+#titre_contact {
+	text-align: center;
+	margin: 2%;
+}
+
+.texte_contact {
+	text-align: center;
+	margin-bottom: 8%;
+}
+#bouton {
+	width: 100px;
+	height: 50px;
+	background-color: rgba(76,27,32,0.8);
+	color: white;
+	margin-bottom: 8%;
+}
+#plan_contact {	
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+#coordonnees_contact {
+	margin-left: 20px;
+	background-color: rgba(76,27,32,0.8);
+	padding: 5%;
+	color: white;
+	text-align: center;
+}
+#coordonnees_contact a {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+#coordonnees_contact a:hover {
+	text-decoration: none;
+	color: rgba(76,27,32,1);
+}
+#coordonnee {
+	margin-top: -10%;
+	padding-top: 10%;
+}
+.picto_contact {
+	width: 40px;
+	height: 40px;
+	margin-right: 2%;
+	margin-top: 4%;
+}
+/* Page réalisations */
+#titre_realisation {
+	text-align: center;
+	margin: 2%;
+}
+
+#texte_realisation {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#nav_real {
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+	align-content: center;
+}
+.real {
+	color: black;
+	font-size: 20pt;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+.real_color {
+	color: rgba(76,27,32,0.8);
+	font-size: 20pt;
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+}
+.real_color:hover, .real:hover {
+	color: rgba(76,27,32,0.8);
+	font-size: 20pt;
+	text-decoration: none;
+}
+#tous {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  height: 100vh;
+  margin-bottom: 30px;
+}
+#tous div {
+	max-width: 33%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#tous div img {
+	max-height: 100%;
+	margin: 2px;
+}
+/*page demeures*/
+.pages_solos {
+	width: 60%;
+	height: 50vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-bottom: 30px;
+}
+.pages_solos img {
+	max-height: 100%;
+	margin: 2px;
+}

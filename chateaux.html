@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nos réalisations</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
+	<link href="http://fr.allfont.net/allfont.css?fonts=courier-new" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<!-- Section des résaux header -->
+		<div class="reseaux_header">
+			<div>
+				<a href="#"><img class="picto_reseau" src="images/picto/fb50.png" alt="Facebook" onmouseover=passageDeLaSouris1(this); onmouseout=departDeLaSouris1(this);></a>
+				<a href="https://twitter.com/ToitsDe"><img class="picto_reseau" src="images/picto/twi50.png" alt="Twitter" onmouseover=passageDeLaSouris2(this); onmouseout=departDeLaSouris2(this);></a>
+				<a href="https://www.instagram.com/histoiredetoits_troyes/?hl=fr"><img class="picto_reseau" src="images/picto/insta50.png" alt="Instagram" onmouseover=passageDeLaSouris3(this); onmouseout=departDeLaSouris3(this);></a>
+				<a href="mailto:histoiredetoits@outlook.fr"><img class="picto_reseau" src="images/picto/mail50.png" alt="E-mail" onmouseover=passageDeLaSouris4(this); onmouseout=departDeLaSouris4(this);></a>
+			</div>
+		</div>
+		<nav> <!-- liste de la navigation -->
+			<ul>
+				<li><a href="atelier.html">NOTRE ATELIER</a></li> 
+				<li class="tiret">|</li>
+				<li><a href="valeurs.html">NOS VALEURS</a></li>
+				<li class="li_logo"> <a class="logo_lien" href="index.html"><img class="logo_header"src="images/logo_header.png"></a></li>
+				<li><a href="realisations.html">NOS RÉALISATIONS</a></li>
+				<li class="tiret">|</li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Corps de texte pour redimensionner la page -->
+	<div class="corps">
+		<!-- Présentation -->
+		<section>
+			<h2 id="titre_realisation"> <img class="picto_toit" src="images/picto.png" alt="Picto toit"> Nos réalisations</h2>
+			<p id="texte_realisation">Histoire de Toits réalise plusieurs ouvrages et se spécialise dans le milieu de l’expertise de la couverture de toits. Nos réalisations sont un gage de qualité qui est valorisé dans le domaine de restauration.</p>
+		</section>
+		<!-- Navigation entre les différentes sections de réalisation -->
+		<ul id="nav_real">
+			<li><a class="real" href="realisations.html">Tous</a></li>
+			<li><a class="real_color" href="chateaux.html">Châteaux</a></li>
+			<li><a class="real" href="demeures.html">Demeures</a></li>
+			<li><a class="real" href="edifices.html">Édifices religieux</a></li>
+		</ul>
+		<!-- Galerie de photo -->
+		<section class="pages_solos"> 
+			<img id="image1" src="images/chateau_1.png" alt="Châteaux">
+			<img id="image2" src="images/chateau_2.png" alt="Châteaux">
+		</section>
+	</div>
+	<!-- Footer -->
+	<footer>
+		<!-- Section footer-->
+		<div id="footer_coordonees">
+			<img id="footer_logo" src="images/logo_agence.png" alt="logo de l'agence">
+			<!-- Footer histoire de toits -->
+			<div id="footer_histoire_de_toits">
+				<h2>CONTACT</h2>
+				<p>8 impasse Rochefort</p>
+				<p>10000 TROYES</p>
+				<a href="histoiredetoits@outlook.fr">histoiredetoits@outlook.fr</a><br><br>
+				<div id="reseaux_contact">
+					<a href="#"><img class="picto_reseau" src="images/picto/fb50.png" alt="Facebook" onmouseover=passageDeLaSouris1(this); onmouseout=departDeLaSouris1(this);></a>
+					<a href="https://twitter.com/ToitsDe"><img class="picto_reseau" src="images/picto/twi50.png" alt="Twitter" onmouseover=passageDeLaSouris2(this); onmouseout=departDeLaSouris2(this);></a>
+					<a href="https://www.instagram.com/histoiredetoits_troyes/?hl=fr"><img class="picto_reseau" src="images/picto/insta50.png" alt="Instagram" onmouseover=passageDeLaSouris3(this); onmouseout=departDeLaSouris3(this);></a>
+				</div>
+				<!-- Mentions légales -->
+				<div id="footer_mentions_legales">
+					<p> &copy 2019 Creagency - Mentions légales</p>
+				</div>
+			</div>
+			<!-- Footer de l'agence -->
+			<div id="footer_agence">
+				<h2>COORDONÉES DE L'AGENCE</h2>
+				<p>23 rue de la Belle Cour</p>
+				<p>75005 PARIS</p>
+				<a href="mailto:creagency@gmail.com">creagency@gmail.com</a><br><br>
+				<p>06 70 19 78 56</p>
+			</div>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript">
+	function passageDeLaSouris1(element) {
+element.setAttribute('src', 'images/picto/fb100.png');
+}
+function departDeLaSouris1(element) {
+element.setAttribute('src', 'images/picto/fb50.png');
+}
+	function passageDeLaSouris2(element) {
+element.setAttribute('src', 'images/picto/twi100.png');
+}
+function departDeLaSouris2(element) {
+element.setAttribute('src', 'images/picto/twi50.png');
+}
+	function passageDeLaSouris3(element) {
+element.setAttribute('src', 'images/picto/insta100.png');
+}
+function departDeLaSouris3(element) {
+element.setAttribute('src', 'images/picto/insta50.png');
+}
+	function passageDeLaSouris4(element) {
+element.setAttribute('src', 'images/picto/mail100.png');
+}
+function departDeLaSouris4(element) {
+element.setAttribute('src', 'images/picto/mail50.png');
+}
+</script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>

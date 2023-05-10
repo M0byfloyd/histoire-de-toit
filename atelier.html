@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Notre Atelier</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300&display=swap" rel="stylesheet">
+	<link href="http://fr.allfont.net/allfont.css?fonts=courier-new" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<!-- Section des résaux header -->
+		<div class="reseaux_header">
+			<div>
+				<a href="#"><img class="picto_reseau" src="images/picto/fb50.png" alt="Facebook" onmouseover=passageDeLaSouris1(this); onmouseout=departDeLaSouris1(this);></a>
+				<a href="https://twitter.com/ToitsDe"><img class="picto_reseau" src="images/picto/twi50.png" alt="Twitter" onmouseover=passageDeLaSouris2(this); onmouseout=departDeLaSouris2(this);></a>
+				<a href="https://www.instagram.com/histoiredetoits_troyes/?hl=fr"><img class="picto_reseau" src="images/picto/insta50.png" alt="Instagram" onmouseover=passageDeLaSouris3(this); onmouseout=departDeLaSouris3(this);></a>
+				<a href="mailto:histoiredetoits@outlook.fr"><img class="picto_reseau" src="images/picto/mail50.png" alt="E-mail" onmouseover=passageDeLaSouris4(this); onmouseout=departDeLaSouris4(this);></a>
+			</div>
+		</div>
+		<nav> <!-- liste de la navigation -->
+			<ul>
+				<li><a href="atelier.html">NOTRE ATELIER</a></li> 
+				<li class="tiret">|</li>
+				<li><a href="valeurs.html">NOS VALEURS</a></li>
+				<li class="li_logo"> <a class="logo_lien" href="index.html"><img class="logo_header"src="images/logo_header.png"></a></li>
+				<li><a href="realisations.html">NOS RÉALISATIONS</a></li>
+				<li class="tiret">|</li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- Div pour le background-image avec l'effet parallaxe -->
+	<div id="atelier_image">
+	</div>
+	<!-- Corps de texte pour redimensionner la page -->
+	<div class="corps">
+		<!-- Présentation de l'atelier -->
+		<section id="presentation_atelier">
+			<h1> <img class="picto_toit" src="images/picto.png" alt="Picto toit"> Notre atelier</h1>
+			<p id="texte_atelier">Fondée en 2016, Histoires de Toits est une entreprise de couverture de toits qui réalise des restaurations d’anciens édifices. Nous sommes un trio de compagnons du devoir, passionnés par notre métier, par les techniques traditionnelles et par les matériaux de qualité.</p>
+		</section>
+		<!-- Histoire de l'atelier -->
+		<section class="histoire_atelier"><!-- description histoire de l'entreprise -->
+			<h2>HISTOIRE</h2>
+			<div class="article_histoire">
+				<p><img id="image_histoire" src="images/atelier_2.jpg" alt="Image histoire">Nous nous sommes rencontrés durant notre parcours chez les compagnons du devoir. Rapidement liés par des travaux et des expériences professionnelles, nous avons eu l’envie de créer un projet commun. Nous voulions fonder notre propre société afin de véhiculer notre vision de la rénovation de bâtiments. Nous nous sommes vite spécialisés en toitures lors de nos études. 
+				En 2016, nous avons fondé Histoires de Toits.<br> </p>
+		 	<!-- texte description histoire de l'entreprise -->
+			</div>
+		</section>
+		<!-- Decription d'une oeuvre -->
+		<img id="image_atelier" src="images/atelier_3.jpg" alt="Image">
+		<section class="section_atelier">
+			<p id="texte_histoire">
+			 Après des années d'études, cette petite structure est la concrétisation de notre travail qui se fait de plus en plus rare. Très vite, notre expertise nous a permis de nous faire connaître. Aujourd’hui, nous conservons notre statut artisanal local tout en nous ouvrant à des restaurations d’envergure nationale.</p>	
+		</section>
+	</div>
+	<!-- Présentation de l'équipe -->
+	<section id="equipe_atelier">
+		<h2 class="titre_atelier" >NOTRE ÉQUIPE</h2>
+			<div>
+				<table class="article_atelier"> <!-- tableau 1 -->
+					<tr>
+						<th><h3>Damien Meyer</h3></th>
+					</tr>
+					<tr>
+						<th><img src="images/guillaume.jpg" alt="Photo Article1"></th> 
+					</tr>
+					<tr>
+						<th><p> Jeune homme de 28 ans, fondateur d’Histoire de Toits il a su convaincre ses amis de se lancer dans ce projet il y a trois ans. Dans l’entreprise il est chef d’équipe et supervise les opérations tout en s’occupant de l’administratif. Il est particulièrement passioné par le patrimoine.<br><br></p></th>
+					</tr>
+				</table>
+				<table class="article_atelier"> <!-- tableau 2 -->
+					<tr>
+						<th><h3>Guillaume Baron</h3></th>
+					</tr>
+					<tr>
+						<th><img src="images/damien.jpg" alt="Photo Article2"></th> 
+					</tr>
+					<tr>
+						<th><p>Jeune homme de 38 ans, il met en œuvre sa pratique et son expérience considérable au profit de son équipe. Spécialisé en tant qu’ardoisier et tuilier, il s’occupe souvent de la plupart des toitures traditionnelles des clients de l’entreprise. <br><br><br></p></th>
+					</tr>
+				</table>
+				<table class="article_atelier"> <!-- tableau 3 -->
+					<tr>
+						<th><h3>Vanessa Schmidt</h3></th>
+					</tr>
+					<tr>
+						<th><img src="images/vanessa.jpg" alt="Photo Article3"></th> 
+					</tr>
+					<tr>
+						<th><p>Jeune femme de 27 ans, elle a étudié aux côtés de Damien avant de devenir une des gérantes d’Histoires de Toits. Passionnée d’histoire et de patrimoine, son intérêt pour la restauration se ressent dans son travail. Elle est très attentive aux détails et veille à ce que tout travail soit précis et bien effectué. <br><br> </p></th>
+					</tr>
+				</table>
+			</div>
+		</section>
+	<!-- Footer -->
+	<footer>
+		<!-- Section footer-->
+		<div id="footer_coordonees">
+			<img id="footer_logo" src="images/logo_agence.png" alt="logo de l'agence">
+			<!-- Footer histoire de toits -->
+			<div id="footer_histoire_de_toits">
+				<h2>CONTACT</h2>
+				<p>8 impasse Rochefort</p>
+				<p>10000 TROYES</p>
+				<a href="histoiredetoits@outlook.fr">histoiredetoits@outlook.fr</a><br><br>
+				<div id="reseaux_contact">
+					<a href="#"><img class="picto_reseau" src="images/picto/fb50.png" alt="Facebook" onmouseover=passageDeLaSouris1(this); onmouseout=departDeLaSouris1(this);></a>
+					<a href="https://twitter.com/ToitsDe"><img class="picto_reseau" src="images/picto/twi50.png" alt="Twitter" onmouseover=passageDeLaSouris2(this); onmouseout=departDeLaSouris2(this);></a>
+					<a href="https://www.instagram.com/histoiredetoits_troyes/?hl=fr"><img class="picto_reseau" src="images/picto/insta50.png" alt="Instagram" onmouseover=passageDeLaSouris3(this); onmouseout=departDeLaSouris3(this);></a>
+				</div>
+				<!-- Mentions légales -->
+				<div id="footer_mentions_legales">
+					<p> &copy 2019 Creagency - Mentions légales</p>
+				</div>
+			</div>
+			<!-- Footer de l'agence -->
+			<div id="footer_agence">
+				<h2>COORDONÉES DE L'AGENCE</h2>
+				<p>23 rue de la Belle Cour</p>
+				<p>75005 PARIS</p>
+				<a href="mailto:creagency@gmail.com">creagency@gmail.com</a><br><br>
+				<p>06 70 19 78 56</p>
+			</div>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript">
+	function passageDeLaSouris1(element) {
+element.setAttribute('src', 'images/picto/fb100.png');
+}
+function departDeLaSouris1(element) {
+element.setAttribute('src', 'images/picto/fb50.png');
+}
+	function passageDeLaSouris2(element) {
+element.setAttribute('src', 'images/picto/twi100.png');
+}
+function departDeLaSouris2(element) {
+element.setAttribute('src', 'images/picto/twi50.png');
+}
+	function passageDeLaSouris3(element) {
+element.setAttribute('src', 'images/picto/insta100.png');
+}
+function departDeLaSouris3(element) {
+element.setAttribute('src', 'images/picto/insta50.png');
+}
+	function passageDeLaSouris4(element) {
+element.setAttribute('src', 'images/picto/mail100.png');
+}
+function departDeLaSouris4(element) {
+element.setAttribute('src', 'images/picto/mail50.png');
+}
+
+
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</html>
